@@ -10,6 +10,26 @@ www file
 /**
  * Module dependencies.
  */
+ 
+ npm i mongoose ejs
+ 
+ npm i marked
+ 
+ npm install slugify
+ 
+ npm install dompurify
+ 
+ npm install jsdom
+ 
+ npm install method-override
+ 
+ and workx
+ 
+ 
+ 
+ rest is from nother app, review and possibly deletee
+ 
+ npm i --save-dev nodemon
 
 const app = require("../app");
 
