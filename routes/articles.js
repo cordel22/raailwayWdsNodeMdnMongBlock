@@ -1,5 +1,5 @@
 const express = require('express')
-const Article = require('./../models/article')
+const Article = require('../models_vpizdu/article')
 const router = express.Router()
 /* 
 router.get('/', (req, res) => {
