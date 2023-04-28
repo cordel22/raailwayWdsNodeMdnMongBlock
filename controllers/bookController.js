@@ -1,10 +1,10 @@
 
 const { body,validationResult } = require('express-validator');
 
-var Book = require('../models/book');
-var Author = require('../models/author');
-var Genre = require('../models/genre');
-var BookInstance = require('../models/bookinstance');
+var Book = require('../models_vpizdu/book');
+var Author = require('../models_vpizdu/author');
+var Genre = require('../models_vpizdu/genre');
+var BookInstance = require('../models_vpizdu/bookinstance');
 
 var async = require('async');
 
