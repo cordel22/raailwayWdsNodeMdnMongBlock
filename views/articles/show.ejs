@@ -26,16 +26,15 @@
 	
 	<a href="/" class="btn btn-secondary">All Articles</a>
 	
-	
+	<div>tento nefunguje, ale ten pod tym hej, mas zly link</div>
+	<a href="/aticles/edit/<%= article.id %>" class="btn btn-info">Edit</a>
 	<div>
 		<p>markdown: </p>
 		<%= article.markdown %>
 	</div>
 	<div>
-		<!--	nac..?
 		<p>sanitizedHtml: </p>
 		<%= article.sanitizedHtml %>
-		-->
 	</div>
 	<a href="edit/<%= article.id %>" class="btn btn-info">Edit</a>
 </html>

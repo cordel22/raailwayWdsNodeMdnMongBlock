@@ -1,9 +1,9 @@
 
 const { body,validationResult } = require('express-validator');
 
-var Book = require('../models_vpizdu/book');
+var Book = require('../models/book');
 
-var BookInstance = require('../models_vpizdu/bookinstance');
+var BookInstance = require('../models/bookinstance');
 
 // Display list of all BookInstances.
 exports.bookinstance_list = function(req, res, next) {

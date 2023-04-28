@@ -2,9 +2,9 @@
 const { body,validationResult } = require('express-validator');
 
 var async = require('async');
-var Book = require('../models_vpizdu/book');
+var Book = require('../models/book');
 
-var Author = require('../models_vpizdu/author');
+var Author = require('../models/author');
 
 // Display list of all Authors.
 exports.author_list = function(req, res, next) {
